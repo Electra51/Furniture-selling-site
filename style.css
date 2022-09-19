@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+     
+}
+body{
+    background-color: rgb(236, 236, 236);
+}
+body::-webkit-scrollbar {
+    display: none; 
+    
+  }
+/* navbar style */
+nav{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(192, 196, 196, 0.562);
+    height: 50px;
+}
+.navicon{
+    font-weight: 800;
+    font-size: 19px;
+}
+strong{
+    color: brown;
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 40px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul div{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.icon{
+    height: 20px;
+    width:22px;
+    align-items: center;
+}
+/* section1 */
+.head{
+    background-image: url(images/header.jpg);
+    height: 100%;
+    text-align: center;
+    padding: 25%;
+}
+.heading{
+    margin-top: -150px;
+    box-shadow: 0 0 140px;
+    background-color: rgba(126, 123, 123, 0.692);
+    padding: 30px 30px 0 30px;
+    height: 230px;
+    width: 500px;
+    margin-left: 90px;
+}
+.headline{
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+button{
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: brown;
+    border: brown;
+    border-radius: 5px;
+    color: aliceblue;
+}
+/* section2 */
+.feature-head{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+.feature-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: 40px 80px 80px 80px;
+    border: 2px solid rgba(253, 253, 253, 0.911);
+    border-radius: 5px;
+    background-color: rgba(252, 252, 252, 0.911);
+    padding: 20px   ;
+}
+.feature{
+    display: flex;
+    align-items: center;
+}
+#bar{
+    border: 0;
+}
+.feature-write{
+    padding-left: 8px;
+    border-right: 2px solid rgba(196, 250, 183, 0.911);
+}
+.feature-para{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+h3{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 300;
+}
+.icons{
+    border: 2px solid rgba(196, 250, 183, 0.911) ;
+    
+    border-radius: 35px;
+    padding: 10px;
+   
+
+}
+/* section3 */
+.modern{
+    margin: 90px 45px;
+    display: flex;
+    align-items: center;
+}
+.modern-write{
+    padding-left: 50px;
+}
+.mder-h1{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.mder-p{
+    padding:20px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+/* section4 */
+.product{
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-column-gap: 30px;
+margin: 50px;
+
+}
+.product-detail{
+    border: 2px solid rgb(235, 232, 232);
+    border-radius: 5px;
+    padding: 30px;
+}
+.see{
+    text-align: end;
+    color:rgb(26, 115, 189) ;
+    padding-right: 40px;
+}
+h2{
+    color: rgb(26, 115, 189);
+}
+.money-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* section5 */
+.review{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    background-color: rgb(154, 215, 218);
+    border-radius: 10px;
+}
+.review-write{
+    padding:25px ;
+}
+.review-img{
+    padding: 25px;
+}
+.paragraph{
+    padding-top: 20px;
+}
+.iconi{
+    color: rgb(180, 171, 35);
+}
+span{
+    color: rgb(180, 171, 35);
+}
+#arrow{
+    
+    background-color: rgb(47, 148, 243);
+    padding: 9px 12px;
+    border-radius: 100%;
+    color: white;
+    box-shadow: 0px 0px 30px;
+    
+}
+.reeview-ico{
+    position: absolute;
+    top: 2729px;
+    left: 1297px;
+    
+}
+.reeview-ico:hover{
+    border-radius: 100%;
+    background-color: rgb(43, 43, 151);
+    
+}
+/* footer */
+.footer{
+    background-color: rgb(28, 30, 36);
+    color: rgb(173, 171, 171);
+}
+.last{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap:30px ;
+    
+    text-align: center;
+    padding: 40px;
+}
+.footer-para{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.fa-brands{
+    border: 2px solid rgba(20, 20, 19, 0.911) ;
+    padding: 7px;
+    border-radius: 60px;
+}
+.fa-brands:hover{
+    background-color: rgb(108, 108, 214);
+}
+hr{
+    width: 75%;
+    margin:auto;
+
+}
+h5{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgb(155, 154, 154);
+}
