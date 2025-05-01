@@ -1,203 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Telona Furniture site</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/a7bfd61fb9.js" crossorigin="anonymous"></script>
-
-</head>
-<body>
-    <!-- header section -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/a7bfd61fb9.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- nav section -->
     <header>
-        <!-- navbar -->
-        <nav>
-            <ul>
-              <div class="navicon">TELO<strong>NA</strong>
-              </div>
-              <div>
-              <li>Home</li>
-              <li>About</li>
-              <li></a>Product</li>
-              <li>Contact</li>
-              <li><img class="icon" src="icons/search.svg" alt=""></li>
-              </div>
-            </ul>
-          </nav>
+      <nav>
+        <div class="navicon">
+          <img src="./images/logo.png" alt="" width="45" />
+          <p>Furni<strong>Mate</strong></p>
+        </div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Product</li>
+          <li>Contact</li>
+          <li><i class="fa fa-light fa-search"></i></li>
+        </ul>
+      </nav>
     </header>
-    <!-- main -->
     <!-- section1  -->
-   
-        <section class="head"> 
-                
-                <div class="heading">
-                    <h1 class="headline">Make Your Home More Attractive and Modern</h1>
-                    <p>Discover furniture and styling ideas for every room in your home and make your room so attrative</p>
-                    <button>Get Started</button>
-                </div>
-                
-        </section>
-        <!-- section2  -->
-
-        <section class="secondsec">
-            <h1 class="feature-head">Our Special Features</h1>
-            <div class="feature-container">
-                <div class="feature">
-                        <div class="icons">
-                            <i class="fa fa-light fa-truck"></i>
-                        </div>
-                    <div class="feature-write">
-                        <h3>Free & Fast Shipping</h3>
-                        <p class="feature-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consectetur cumque a</p>
-                    </div>
-                </div>
-                <div class="feature">
-                    <div class="icons">
-                        <i class=" fa fa-solid fa-medal"></i>
-                    </div>
-                <div class="feature-write">
-                    <h3>Warrenty</h3>
-                    <p class="feature-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consectetur cumque a</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="icons">
-                    <i class="fa fa-regular fa-gem"></i>
-                </div>
-            <div id="bar" class="feature-write">
-                <h3 >Premium Quality</h3>
-                <p class="feature-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consectetur cumque a</p>
-            </div>
+    <section class="hero">
+      <img src="./images/pattern.svg" alt="" class="pattern" />
+      <div class="hero-content">
+        <div class="heading">
+          <h1 class="headline">Make Your Home More Attractive and Modern</h1>
+          <p>
+            Discover furniture and styling ideas for every room in your home and
+            make your room so attrative
+          </p>
+          <button class="button-71" role="button">Get Started</button>
         </div>
-            </div>
-        </section>
-        <!-- section3  -->
-        <section>
-           <div class="modern">
-            <div>
-                <img src="images/Modern Image.png" alt="">
-            </div>
-            <div class="modern-write">
-                <h1 class="mder-h1">Modern Collections</h1>
-                <p class="mder-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis saepe non, eius quam illum, sequi voluptatibus cum aspernatur tenetur expedita possimus, culpa in. Sint fuga, officia quam magni facilis consequatur.</p>
-                <button>View Details</button>
-            </div>
-           </div>
-        </section>
-
-        <!-- section4  -->
-        <section>
-            <h1 class="feature-head">Trending Product</h1>
-          <div class="product">
-            <div class="product-detail">
-                <img src="images/Chair1.png" alt="">
-                <p>Soft Blue Sofa</p>
-                <div class="money-cart">
-                    <h2>$34.00</h2>
-                <i class="fa fa-solid fa-cart-plus"></i>
-                </div>
-            </div>
-            <div class="product-detail">
-                <img src="images/Chair3.png" alt="">
-                <p>Black Raj Sofa</p>
-                <div class="money-cart">
-                    <h2>$34.00</h2>
-                <i class="fa fa-solid fa-cart-plus"></i>
-                </div>
-            </div>
-            <div class="product-detail">
-                <img src="images/Chair2.png" alt="">
-                <p>Yello Sofa</p>
-                <div class="money-cart">
-                    <h2>$34.00</h2>
-                <i class="fa fa-solid fa-cart-plus"></i>
-                </div>
-            </div>
-            
+        <img src="./images/image-07.png" alt="" class="hero-img" />
+      </div>
+    </section>
+    <!-- section2  -->
+    <section class="section2">
+      <div class="feature-container">
+        <div class="feature">
+          <div class="feature-write">
+            <h3>
+              <i class="fa fa-light fa-truck" style="padding-right: 10px"></i>
+              Free & Fast Shipping
+            </h3>
+            <p class="feature-para">
+              Enjoy hassle-free returns and 24/7 customer support.
+            </p>
           </div>
-          <p class="see">See More</p>
-        </section>
-<!-- section5  -->
-<section>
-    <h1 class="feature-head">Our Client Review</h1>
-    <div class="review">
-        <div class="review-write">
-            <h1>Rifat Islam</h1>
-            <p>Digital Marketer</p>
-            <div class="iconi">
-                <i class="fa fa-solid fa-star"></i>
-            <i class="fa fa-solid fa-star"></i>
-            <i class="fa fa-solid fa-star"></i>
-            <i class="fa fa-solid fa-star"></i>
-            <i class="fa fa-solid fa-star"></i>
-            </div>
-            
-            <p class="paragraph"><span class="fa fa-solid fa-quote-left"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nesciunt, porro quas eaque et sequi autem vitae iste, a adipisci aliquam excepturi illo libero consequatur illum, fugit blanditiis quisquam ullam.
-            Officiis quisquam quas nulla, et reiciendis enim aliquid excepturi nisi autem nobis laudantium voluptatum. Dicta, aliquam quidem amet rerum sint, odit similique quisquam suscipit sapiente maxime fugiat incidunt corrupti tenetur!
-             <span class="fa fa-solid fa-quote-right"></span></p>
         </div>
-        <div class="review-img">
-            <img src="images/Man.png" alt="">
+        <div class="feature">
+          <div class="feature-write">
+            <h3>
+              <i class="fa fa-solid fa-medal" style="padding-right: 10px"></i
+              >Warrenty
+            </h3>
+            <p class="feature-para">
+              We've got you covered even after purchase. Fast and easy service.
+            </p>
+          </div>
         </div>
-        
-            <div class="reeview-ico">
-                <i id="arrow" class="fa fa-solid fa-chevron-right"></i></div>
-        
-    </div>
-</section>
-
-<footer class="footer">
-   <div class="last">
-    <div>
-        <div class="navicon">TELO<strong>NA</strong>
+        <div class="feature">
+          <div class="feature-write">
+            <h3>
+              <i class="fa fa-regular fa-gem" style="padding-right: 10px"></i>
+              Premium Quality
+            </h3>
+            <p class="feature-para">
+              Made from top-grade materials for superior performance.
+            </p>
+          </div>
         </div>
-        <p class="footer-para">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati,. 
+      </div>
+    </section>
+    <!-- section 3 -->
+    <section class="section3">
+      <img src="./images/pattern.svg" alt="" class="pattern-2" />
+      <div class="section3-h">
+        <div class="section3-card">
+          <img src="./images/1.jpg" alt="" />
+          <div class="card-content">
+            <p class="card-p">Upp to 20% off</p>
+            <p class="card-p-1">Sectional Couches</p>
+          </div>
+        </div>
+        <div class="section3-card">
+          <img src="./images/2.jpg" alt="" />
+          <div class="card-content">
+            <p class="card-p">Upp to 25% off</p>
+            <p class="card-p-1">Sectional Sofas</p>
+          </div>
+        </div>
+        <div class="section3-card">
+          <img src="./images/3.jpg" alt="" />
+          <div class="card-content">
+            <p class="card-p">Upp to 10% off</p>
+            <p class="card-p-1">Sectional Couch Tables</p>
+          </div>
+        </div>
+        <div class="section3-card">
+          <img src="./images/4.jpg" alt="" />
+          <div class="card-content">
+            <p class="card-p">Upp to 15% off</p>
+            <p class="card-p-1">Sectional Sofas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section4  -->
+    <section class="section4">
+      <div class="section4-img">
+        <img src="images/Modern Image.png" alt="" />
+      </div>
+      <div class="section4-right">
+        <h1 class="section4-h1">Modern Collections</h1>
+        <p class="section4-p">
+          Discover our Modern Collections – a perfect harmony of form, function,
+          and sophistication. Our curated selection features furniture designed
+          with clean lines, premium materials, and a contemporary aesthetic to
+          complement today's living spaces. Whether you're furnishing a compact
+          apartment or a spacious home, each piece in our collection is crafted
+          with attention to detail and built for lasting comfort. Enjoy
+          minimalist sofas that maximize space without compromising coziness,
+          sleek coffee tables with smart storage solutions, and elegant dining
+          sets that transform every meal into a stylish gathering. We blend
+          modern trends with timeless craftsmanship, ensuring that your
+          furniture not only looks great but performs exceptionally. From
+          neutral tones to bold statement pieces, find designs that reflect your
+          personality and lifestyle. Elevate your living experience with our
+          Modern Collections — where style meets comfort, and every room tells a
+          story.
         </p>
-        <div class="footer-icons">
-            <i class="fa fa-brands fa-facebook-f"></i>
-            <i class="fa fa-brands fa-twitter"></i>
-        <i class="fa fa-brands fa-linkedin"></i>
+        <button class="button-71" role="button">View Details</button>
+      </div>
+    </section>
+
+    <!-- section5 -->
+    <section class="section5">
+      <div class="section5-container">
+        <div class="section5-card">
+          <img src="images/living_room.svg" alt="" />
+          <p class="section5-p">Living Room</p>
+          <p class="section5-p-p">8 items</p>
         </div>
+        <div class="section5-card">
+          <img src="images/bedroom.svg" alt="" />
+          <p class="section5-p">Bed Room</p>
+          <p class="section5-p-p">12 items</p>
+        </div>
+        <div class="section5-card">
+          <img src="images/home_office.svg" alt="" />
+          <p class="section5-p">Home office</p>
+          <p class="section5-p-p">15 items</p>
+        </div>
+        <div class="section5-card">
+          <img src="images/lighting.svg" alt="" />
+          <p class="section5-p">Lighting</p>
+          <p class="section5-p-p">8 items</p>
+        </div>
+        <div class="section5-card">
+          <img src="images/home_decoration.svg" alt="" />
+          <p class="section5-p">Home decoration</p>
+          <p class="section5-p-p">20 items</p>
+        </div>
+        <div class="section5-card">
+          <img src="images/dining_room.svg" alt="" />
+          <p class="section5-p">Dining Room</p>
+          <p class="section5-p-p">16 items</p>
+        </div>
+      </div>
+    </section>
+    <img src="./images/pattern.svg" alt="" class="pattern-3" />
+    <!-- section6  -->
+    <section class="section6">
+      <h1 class="feature-head">Trending Product</h1>
+      <div class="product">
+        <div class="product-detail">
+          <img src="images/yello-sofa.png" alt="" />
+          <p class="product-detail-p">Velvet Accent Chair</p>
+          <div class="money-cart">
+            <h2>$289.70</h2>
+            <i class="fa fa-solid fa-cart-plus"></i>
+          </div>
+        </div>
+        <div class="product-detail">
+          <img src="images/bed.png" alt="" />
+          <p class="product-detail-p">Bed Fantasy</p>
+          <div class="money-cart">
+            <h2>$344.00</h2>
+            <i class="fa fa-solid fa-cart-plus"></i>
+          </div>
+        </div>
+        <div class="product-detail">
+          <img src="images/Chair1.png" alt="" />
+          <p class="product-detail-p">Soft Blue Sofa</p>
+          <div class="money-cart">
+            <h2>$234.00</h2>
+            <i class="fa fa-solid fa-cart-plus"></i>
+          </div>
+        </div>
+        <div class="product-detail">
+          <img src="images/Chair2.png" alt="" />
+          <p class="product-detail-p">Orange Soft Sofa</p>
+          <div class="money-cart">
+            <h2>$222.00</h2>
+            <i class="fa fa-solid fa-cart-plus"></i>
+          </div>
+        </div>
+        <div class="product-detail">
+          <img src="images/dressing.png" alt="" />
+          <p class="product-detail-p">Dressing Table</p>
+          <div class="money-cart">
+            <h2>$310.00</h2>
+            <i class="fa fa-solid fa-cart-plus"></i>
+          </div>
+        </div>
+        <div class="product-detail">
+          <img src="images/almirah.png" alt="" />
+          <p class="product-detail-p">Wooden Almirah</p>
+          <div class="money-cart">
+            <h2>$340.00</h2>
+            <i class="fa fa-solid fa-cart-plus"></i>
+          </div>
+        </div>
+        <div class="product-detail">
+          <img src="images/white_sofa.png" alt="" />
+          <p class="product-detail-p">Linea Sohva Sofa</p>
+          <div class="money-cart">
+            <h2>$5,753.00</h2>
+            <i class="fa fa-solid fa-cart-plus"></i>
+          </div>
+        </div>
+        <div class="product-detail">
+          <img src="images/Chair3.png" alt="" />
+          <p class="product-detail-p">Black Raj Chair</p>
+          <div class="money-cart">
+            <h2>$753.00</h2>
+            <i class="fa fa-solid fa-cart-plus"></i>
+          </div>
+        </div>
+      </div>
+      <p class="see">See More</p>
+    </section>
+    <!-- section7 -->
+    <section class="section7">
+      <div class="video section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 offset-lg-4">
+              <div class="section-heading text-center">
+                <h6>| Video View</h6>
+                <h2>Get Closer View & Different Feeling</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./images/pattern.svg" alt="" class="pattern" />
+      <div class="video-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+              <div class="video-frame">
+                <img src="./images/video-frame.jpg" alt="" />
+                <a href="https://youtube.com" target="_blank"
+                  ><i class="fa fa-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section8 -->
+    <section class="section8">
+      <h1 class="feature-head">Our Client Review</h1>
+      <div class="section8-content">
+        <figure class="snip1157">
+          <blockquote>
+            Calvin: You know sometimes when I'm talking, my words can't keep up
+            with my thoughts... I wonder why we think faster than we speak.
+            Hobbes: Probably so we can think twice.
+            <div class="arrow"></div>
+          </blockquote>
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg"
+            alt="sq-sample3" />
+          <div class="author">
+            <h5>Pelican Steve <span> LIttleSnippets.net</span></h5>
+          </div>
+        </figure>
+        <figure class="snip1157 hover">
+          <blockquote>
+            Thank you. before I begin, I'd like everyone to notice that my
+            report is in a professional, clear plastic binder...When a report
+            looks this good, That's a tip kids. Write it down.
+            <div class="arrow"></div>
+          </blockquote>
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample27.jpg"
+            alt="sq-sample27" />
+          <div class="author">
+            <h5>Max Conversion<span> LIttleSnippets.net</span></h5>
+          </div>
+        </figure>
+        <figure class="snip1157">
+          <blockquote>
+            My behaviour is addictive functioning in a disease process of toxic
+            co-dependency. I need holistic healing and wellness before I'll
+            accept any responsibility for my actions.
+            <div class="arrow"></div>
+          </blockquote>
+          <img
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg"
+            alt="sq-sample17" />
+          <div class="author">
+            <h5>Eleanor Faint<span> LIttleSnippets.net</span></h5>
+          </div>
+        </figure>
+      </div>
+    </section>
 
-    </div>
-    <div>
-        <h4>Company</h4>
-        <p class="footer-para">About us</p>
-        <p class="footer-para">Our services</p>
-        <p class="footer-para">Privacy Policy</p>
-    </div>
-    <div>
-        <h4>Get Help</h4>
-        <p class="footer-para">FAQ</p>
-        <p class="footer-para">Sipping</p>
-        <p class="footer-para">Returns</p>
-        <p class="footer-para">Payment Options</p>
-    </div>
-    <div>
-        <h4>Others</h4>
-        <p class="footer-para">Blogs</p>
-        <p class="footer-para">Shop</p>
-        <p class="footer-para">Histry</p>
-        
-    </div>
-   
-   </div>
-   <hr>
-   <h5>Copyright @2022.Telona.Designed by Safayet</h5>
-</footer>
-
-
-    
-
-</body>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="last">
+          <div>
+            <div class="navicon">
+              <img src="./images/logo.png" alt="" width="65" />
+              <p>Furni<strong>Mate</strong></p>
+            </div>
+            <p class="footer-para">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Obcaecati,.
+            </p>
+            <div class="footer-icons">
+              <i class="fa fa-brands fa-facebook-f"></i>
+              <i class="fa fa-brands fa-twitter"></i>
+              <i class="fa fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <p class="footer-para">About us</p>
+            <p class="footer-para">Our services</p>
+            <p class="footer-para">Privacy Policy</p>
+          </div>
+          <div>
+            <h4>Get Help</h4>
+            <p class="footer-para">FAQ</p>
+            <p class="footer-para">Sipping</p>
+            <p class="footer-para">Returns</p>
+            <p class="footer-para">Payment Options</p>
+          </div>
+          <div>
+            <h4>Others</h4>
+            <p class="footer-para">Blogs</p>
+            <p class="footer-para">Shop</p>
+            <p class="footer-para">Histry</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <h5>Copyright @2022.Telona.Designed by Safayet</h5>
+    </footer>
+  </body>
 </html>
